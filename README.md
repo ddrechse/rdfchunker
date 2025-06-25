@@ -107,8 +107,6 @@ docker run --name free23ai -d -p 1521:1521 \
   -e APP_USER=testuser \
   -e APP_USER_PASSWORD=Welcome12345 \
   gvenzl/oracle-free:23.7-slim-faststart
-
-# Wait 30-60 seconds for database to fully start
 ```
 
 2. **Generate RDF Knowledge Graph**
