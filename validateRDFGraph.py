@@ -68,7 +68,7 @@ from rdflib import Graph
 import re
 import statistics
 
-def validate_chatbot_rdf_graph(rdf_file="vectorsearchlessrelations.nt"):
+def validate_chatbot_rdf_graph(rdf_file="vectorsearchcleanedchunked.nt"):
     """Comprehensive validation of RDF graph for chatbot readiness"""
     
     print("🔍 VALIDATING RDF GRAPH FOR CHATBOT USE")
@@ -426,7 +426,7 @@ def validate_chatbot_rdf_graph(rdf_file="vectorsearchlessrelations.nt"):
 
 # Run the validation
 if __name__ == "__main__":
-    results = validate_chatbot_rdf_graph("vectorsearchcleaned.nt")
+    results = validate_chatbot_rdf_graph("vectorsearchcleanedchunked.nt")
     
     print(f"\n📊 SUMMARY:")
     print(f"Ready for chatbot deployment: {'YES' if results['percentage'] >= 70 else 'NEEDS WORK'}")
