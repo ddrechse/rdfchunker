@@ -37,7 +37,6 @@ Content Extraction  Knowledge     Embeddings    Vector Storage  Smart Retrieval
 |------|---------|--------------|
 | `validateRDFGraph.py` | Quality assessment | 5-tier validation, chatbot readiness scoring |
 | `rdfDupAnalysis.py` | Duplicate detection | Content analysis, URI validation, relationship audit |
-| `pdfDupAnalysis.py` | Alternative analyzer | Comprehensive duplicate identification and reporting |
 
 ## 🚀 Quick Start
 
